@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+	<head>
+	    <title>DEMO Responsive :: Posición Global</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <meta charset="utf-8"/>
+	    <meta name="description" content="descripcion"/>
+        <meta name="keywords" content="keywords"/>
+        
+        <link rel="stylesheet" href="static/css/bootstrap.min.css" media="screen"/>
+	    <link rel="stylesheet" href="static/css/bower_components/font-awesome/css/font-awesome.min.css"/>
+	    <link rel="stylesheet" href="static/css/assets/css/bootswatch.min.css"/>
+	    
+	    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!--[if lt IE 9]>
+	      <script src="static/js/bower_components/bootstrap/assets/js/html5shiv.js" th:href="@{/static/css/bootstrap.min.css}"></script>
+	      <script src="static/js/bower_components/bootstrap/assets/js/respond.min.js" th:href="@{/static/css/bootstrap.min.css}"></script>
+	    <![endif]-->
+	    
+	    <link rel="icon" href="static/img/favicon.ico"/>
+	    
+	    <script type="text/javascript">
+	
+	    </script>
+  	</head>
+  
+  	<body>
+   		
+   		<!-- MENU -->
+   		<div class="navbar navbar-default navbar-fixed-top">
+      		<div class="container">
+        		<div class="navbar-header">
+          			<button id="btnMenu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+          			</button>
+          			<a class="navbar-brand" href="index.html">Digital Bank</a>
+        		</div>
+        		<div class="navbar-collapse collapse">
+          			<ul class="nav navbar-nav">
+          				<li class="active"><a href="index.html">Posición global</a></li>
+            			<li id="optTransfer"><a href="transferencias.html">Transferencias</a></li>
+            			<li><a href="#">Seguridad</a></li>
+            		</ul>
+            		<ul class="nav navbar-nav navbar-right">
+            			<li><a href="Ayuda">Ayuda&nbsp;<i class="glyphicon glyphicon-question-sign"></i></a></li>
+          				<li class="divider-vertical"></li>
+          				<li class="dropdown">
+            				<a class="dropdown-toggle" href="#" data-toggle="dropdown">Area Personal<strong class="caret"></strong></a>
+            				<ul class="dropdown-menu">
+				                 <li><a href="configuration.html">Configuración</a></li>
+				                 <li><a href="logout.html">Cerrar Sesión</a></li>
+				             </ul>
+          				</li>
+          			</ul>
+        		</div><!--/.navbar-collapse -->
+      		</div>      		
+    	</div>
+    	<!-- /.MENU -->
+    	
+    	<div class="container" style="margin-top: 10px;">
+        	<div class="col-lg-12">
+					<ul class="breadcrumb">
+						<li class="active">Posición Global</li>
+					</ul>
+  			</div>
+		</div>
+		
+		<div class="container">
+    		
+			<div class="col-lg-7">
+    			<div class="bs-example">
+    				 <table class="table">
+				      	<thead>
+				        	<tr>
+				          		<th class="text-info col-lg-10">Ahorro e inversión</th>
+				          		<th>20.000,00&euro;</th>
+				          		<th></th>
+				        	</tr>
+				      	</thead>
+				      	<tbody>
+				        	<tr class="well">
+				          		<td id="lblAccounts">Cuentas</td>
+				          		<td>20.000,00&euro;&nbsp;</td>
+				        		<td><a href=""><i class="glyphicon glyphicon-chevron-right"></i></a></td>
+				        	</tr>
+				       	</tbody>
+				      </table>
+				      <table class="table">
+				      	<thead>
+				        	<tr>
+				          		<th class="text-info col-lg-10">Financiación</th>
+				          		<th>100.000,00&euro;</th>
+				          		<th></th>
+				        	</tr>
+				      	</thead>
+				      	<tbody>
+				        	<tr class="well">
+				          		<td id="lblLoans">Préstamos</td>
+				          		<td>99.000,00&euro;</td>				          
+				        		<td><a href=""><i class="glyphicon glyphicon-chevron-right"></i></a></td>
+				        	</tr>
+				        	<tr class="well">
+				          		<td id="lblCards">Tarjetas</td>
+				          		<td>1.000,00&euro;</td>				          
+				        		<td><a href=""><i class="glyphicon glyphicon-chevron-right"></i></a></td>
+				        	</tr>
+				       	</tbody>
+				      </table>
+				      
+				        
+    			</div>
+    		</div>
+    	</div>
+		
+
+	    <!-- Bootstrap core JavaScript
+	    ================================================== -->
+	    <!-- Placed at the end of the document so the pages load faster -->
+	   	<script src="static/js/jquery-1.11.0.min.js"></script>
+	    <script src="static/js/bootstrap.min.js"></script>
+  	
+  	</body>
+</html>

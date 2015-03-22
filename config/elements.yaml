@@ -1,0 +1,35 @@
+
+#Buttons
+btnMenu: btnMenu
+btnContinue: btnContinue
+
+#Options of Menu
+optTransfer: optTransfer
+
+#Operations
+opToPopularAccount: opToPopularAccount
+
+#input texts
+txtAmount: txtAmount
+txtComments: txtComments
+txtPhone: txtPhone
+txtMail: txtMail
+txtKeyOperations: txtKeyOperations
+
+#checks
+chkLOPD: chkLOPD
+
+#selectors 
+selOrigin: selOrigin
+selDestination: selDestination
+
+#lists
+lstAccounts: lstAccounts
+lstOriginAccount: lstOriginAccount
+lstDestinationAccount: lstDestinationAccount
+
+#labels
+lblAccounts: lblAccounts
+lblCards: lblCards
+lblLoans: lblLoans
+lblNotifications: lblNotifications

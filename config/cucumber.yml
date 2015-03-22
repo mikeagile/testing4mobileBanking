@@ -1,0 +1,11 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+<% common_path = "--format pretty" %>
+
+<% html_common_path = "-r html -r html/step_definitions -r html/support -r html/pages "%>
+
+html: SCREENSHOT_PATH=report/html PLATFORM=html <%= html_common_path %> <%= common_path %>
+
+default: --profile html --format html -o cucumber_report.html
