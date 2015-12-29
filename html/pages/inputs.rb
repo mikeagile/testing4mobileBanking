@@ -30,4 +30,13 @@ class Inputs < GenericPage
   		Capybara::fill_in $ELEMENTS['txtKeyOperations'], :with => key
   		sleep 1
 	end
+
+	def set_login (user,pass)
+	  Capybara::fill_in $ELEMENTS['txtUser'], :with => user
+	  sleep 1
+	  Capybara::fill_in $ELEMENTS['txtPassword'], :with => pass
+	  sleep 1
+	  Capybara::find_by_id($ELEMENTS['btnContinue']).click
+    end
+
 end

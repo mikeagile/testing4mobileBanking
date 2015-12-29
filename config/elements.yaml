@@ -15,6 +15,8 @@ txtComments: txtComments
 txtPhone: txtPhone
 txtMail: txtMail
 txtKeyOperations: txtKeyOperations
+txtUser: txtUser
+txtPassword: txtPassword
 
 #checks
 chkLOPD: chkLOPD
